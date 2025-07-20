@@ -11,11 +11,12 @@ This project explores the Yelp Academic Dataset (6M+ reviews) using PySpark to p
 
 ## Project Overview
 
-- **Dataset**: [Yelp Academic Dataset](https://www.yelp.com/dataset) - includes business, user, and review data in JSON format (~6 million reviews total)
+- **Dataset**: [Yelp Academic Dataset](https://www.yelp.com/dataset) - includes business, user, and review data in JSON format (~6.6 million reviews total)
 - **Goal**: Analyze the use of authenticity-related language in Yelp reviews across different cuisines and regions, and build a machine learning model to predict review ratings.
 - **Techniques used**:
   - PySpark DataFrame Queries
-  - Text Analysis
+  - Feature Engineering
+  - Text Analysis (Distributed NLP)
   - Statistical Analysis
   - Supervised Machine Learning (Spark MLlib)
 
